@@ -1,8 +1,8 @@
 name: rfreechart
-summary: "TODO: Summary"
-description: "TODO: Description"
+summary: "Thin jruby wrapper for jfreechart"
+description: "A thin jruby wrapper for jfreechart (mainly just a way to load the jars in a structured way for now)"
 license: MIT
-authors: pts
+authors: Patrik Sundberg 
 homepage: http://rubygems.org/gems/rfreechart
 has_yard: true
 
