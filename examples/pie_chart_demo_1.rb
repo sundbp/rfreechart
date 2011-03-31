@@ -1,15 +1,14 @@
 $LOAD_PATH << File.dirname(__FILE__) + "/../lib"
 require 'rfreechart'
 
-java_import javax.swing.JPanel
-
-java_import org.jfree.chart.ChartFactory
-java_import org.jfree.chart.ChartPanel
-java_import org.jfree.data.general.DefaultPieDataset
 java_import org.jfree.ui.ApplicationFrame
 java_import org.jfree.ui.RefineryUtilities
 
 class PieChartDemo1 < ApplicationFrame
+  java_import javax.swing.JPanel
+  java_import org.jfree.chart.ChartFactory
+  java_import org.jfree.chart.ChartPanel
+  java_import org.jfree.data.general.DefaultPieDataset
 
   def create_dataset
     dataset = DefaultPieDataset.new
